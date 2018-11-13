@@ -20,6 +20,9 @@ if(eta < 18) {
   //stampo i risultati in html
   document.getElementById('totale').innerHTML = totaleBigliettoScontato;
 }
+else {
+  document.getElementById('totale').innerHTML = totaleBiglietto;
+}
 if(eta > 65) {
   //creo variabile che contiene il risultato dello sconto del 40%
   var scontoAnziani = totaleBiglietto * 40/100;
@@ -29,6 +32,9 @@ if(eta > 65) {
   console.log("costo totale con sconto: " +totaleBigliettoScontato);
   //stampo i risultati in html
   document.getElementById('totale').innerHTML = totaleBigliettoScontato;
+}
+else {
+  document.getElementById('totale').innerHTML = totaleBiglietto;
 }
 //stampo i risultati in html eta e km
 document.getElementById('etaUtente').innerHTML = eta;
