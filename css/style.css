@@ -10,6 +10,7 @@
 .container {
   display: flex;
   justify-content: center;
+  align-items: center;
   width: 70%;
   height: 100vH;
   margin: 0 auto;
@@ -19,21 +20,36 @@
   flex-direction: column;
   justify-content:center;
   align-items: center;
-  width: 50%;
-  text-align: left;
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+  border: 3px solid ;
+  border-radius: 5px;
 }
 #wrapTicket h2 {
   text-transform: uppercase;
   color: #fff;
   font-size: 25px;
-  text-align: left;
 }
 .wrapText {
   width: 100%;
-  margin-top: 30px;
+  padding-top:10px;
+  padding-bottom: 10px;
 }
 #totale {
   font-size: 40px;
   font-weight: bold;
   text-transform: uppercase;
+}
+
+/*MEDIA QUERY*/
+@media screen and (max-width: 768px) {
+  #totale {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 460px) {
+  #totale {
+    font-size: 25px;
+  }
 }
