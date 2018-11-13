@@ -4,3 +4,39 @@
   box-sizing: border-box;
   font-family: 'Montserrat', sans-serif;
 }
+#wrapperInfo {
+  background-color: orange;
+}
+.container {
+  width: 70%;
+  height: 100vH;
+  background: red;
+  margin: 0 auto;
+}
+.infoUtente {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  float: left;
+  background-color: yellow;
+  width: 50%;
+  height: 50vh;
+  border: 1px solid black;
+}
+.infoUtente h2 {
+  text-transform: uppercase;
+}
+#risultatoUtente {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: green;
+  border: 1px solid black;
+  width: 100%;
+  height: 50vh;
+}
+#risultatoUtente h2 {
+  text-transform: uppercase;
+}
