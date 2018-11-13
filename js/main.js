@@ -6,3 +6,6 @@ var km = prompt("Salve, per acquistare il biglietto indichi i chilometri da perc
 //console.log(km);
 //salvo in variabile il costo chilometrico
 var costokm = 0.21;
+//calcolo base per il costo del biglietto
+var totaleBiglietto = km * costokm;
+console.log(totaleBiglietto);
