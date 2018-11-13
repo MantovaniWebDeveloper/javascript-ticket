@@ -27,6 +27,8 @@ if(eta > 65) {
   //creo variabile che contiene il risultato dello sconto del 40%
   var scontoAnziani = totaleBiglietto * 40/100;
   console.log("valore sconto: " + scontoAnziani);
+  document.getElementById('sconto').innerHTML = scontoAnziani;
+
   //creo una variabile che contiene il totale biglietto - lo sconto calcolato in precedenza
   var totaleBigliettoScontato = totaleBiglietto - scontoAnziani;
   console.log("costo totale con sconto: " +totaleBigliettoScontato);
